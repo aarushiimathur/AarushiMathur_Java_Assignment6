@@ -6,3 +6,10 @@ public class Main {
         md.performQuack();
         md.performSwim();
         md.performFly();
+
+        System.out.println("------------");
+        RedHeadDuck rd = new RedHeadDuck();
+        rd.display();
+        rd.performQuack();
+        rd.performSwim();
+        rd.performFly();
