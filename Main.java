@@ -21,3 +21,14 @@ public class Main {
         rubber.performSwim();
         rubber.performFly();
 
+        System.out.println("------------");
+        DecoyDuck deco = new DecoyDuck();
+        deco.display();
+        deco.performQuack();
+        deco.performSwim();
+        deco.performFly();
+        System.out.println("------------");
+
+    }
+}
+
