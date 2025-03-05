@@ -14,3 +14,15 @@ public abstract class Duck {
     public void setFlyBehavior(FlyBehavior fb) {
         flyBehavior = fb;
     }
+    public void performSwim(){
+        swimBehaviour.swim();
+    }
+
+    public void performQuack(){
+        quackBehaviour.quack();
+    }
+
+    public void performFly() {
+        flyBehavior.fly();
+    }
+}
