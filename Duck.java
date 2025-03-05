@@ -8,4 +8,7 @@ public abstract class Duck {
     public void setQuackBehaviour(QuackBehaviour qb) {
         quackBehaviour = qb;
     }
+    public void setSwimBehaviour(SwimBehaviour sb) {
+        swimBehaviour = sb;
+    }
     
