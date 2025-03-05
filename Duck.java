@@ -11,4 +11,6 @@ public abstract class Duck {
     public void setSwimBehaviour(SwimBehaviour sb) {
         swimBehaviour = sb;
     }
-    
+    public void setFlyBehavior(FlyBehavior fb) {
+        flyBehavior = fb;
+    }
