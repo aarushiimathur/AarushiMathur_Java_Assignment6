@@ -13,3 +13,11 @@ public class Main {
         rd.performQuack();
         rd.performSwim();
         rd.performFly();
+
+        System.out.println("------------");
+        RubberDuck rubber = new RubberDuck();
+        rubber.display();
+        rubber.performQuack();
+        rubber.performSwim();
+        rubber.performFly();
+
